@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body class="overflow-x-hidden">
+
+  <header class="shadow">
+    <div class="container">
+      <div class="navbar bg-white">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+             
+              <li><a href="" > Home</a></li>
+              <li><a href=""> Course</a></li>
+              <li><a href=""> Blog</a></li>
+              <li><a href=""> Contact</a></li>
+             
+            </ul>
+          </div>
+         <img class="w-[70px] md:w-[100px]" src="images/logo.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="" > Home</a></li>
+              <li><a href=""> Course</a></li>
+              <li><a href=""> Blog</a></li>
+              <li><a href=""> Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <ul>
+            <li class="flex justify-center items-center gap-1 text-xs lg:text-xl">
+              <i  class="primary-color fa-regular fa-user"></i>
+              <a href="">Login /</a><a href="">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="overflow-x-hidden">
+    <section class="hero w-screen relative" style="background-image: url('images/hero-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+      <!-- card start  -->
+      <div class="card bg-base-100 shadow-xl z-50 p-5 absolute bottom-8 hidden lg:block">
+        <div class="card-body items-center text-center">
+          <img src="images/student-img.png" alt="">
+          <h2 class="card-title text-2xl">100k+</h2>
+          <p class="text-[#7a7a7a]">Total Enrolled Students</p>
+        </div>
+      </div>
+      <!-- card end  -->
+      <div class="container">
+        <div class="hero ">
+          <div class="hero-content flex-col lg:flex-row">
+
+            <div>
+              <p class="mb-5">Learn From 20,000+ Powerful Courses</p>
+              <h1 class="text-2xl md:text-5xl font-bold mb-5">Best platform to Empower Skills</h1>
+             
+              <button class="mb-5 btn primary-bg text-white">Try 7Days Free Trial</button>
+              <p class="mb-5 text-sm md:text-xl"><span class="primary-color"> No credit card required.</span> </p>
+            </div>
+            <img  src="images/hero-img.png" class="w-[80%] max-w-sm rounded-lg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top categorys section start -->
+    <section class="section cate-section">
+      <div class="container">
+        <div class="title-text">
+          <h2 class="title">
+            Top
+            <span>Categories</span>
+          </h2>
+        </div>
+        <div class="row grid gap-5 mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="category-item bg-[#f7efff]">
+            <div class="cate-icon">
+              <img src="images/cat-icon1.png" alt="">
+            </div>      
+            <span>Mathmetics</span>
+          </div>
+          <div class="category-item bg-[#fff6f3]">
+            <div class="cate-icon">
+              <img src="images/cat-icon2.png" alt="">
+            </div>    
+            <span>Idea Generate</span>
+          </div>
+          <div class="category-item bg-[#effafd]">
+            <div class="cate-icon">
+              <img src="images/cat-icon3.png" alt="">
+            </div>    
+            <span>Chemistry</span>
+          </div>
+          <div class="category-item bg-[#fff7ee]">
+            <div class="cate-icon">
+              <img src="images/cat-icon4.png" alt="">
+            </div>    
+            <span>Business </span>
+          </div>
+          <div class="category-item bg-[#f7efff]">
+            <div class="cate-icon">
+              <img src="images/cat-icon1.png" alt="">
+            </div>      
+            <span>Mathmetics</span>
+          </div>
+          <div class="category-item bg-[#fff6f3]">
+            <div class="cate-icon">
+              <img src="images/cat-icon2.png" alt="">
+            </div>    
+            <span>Idea Generate</span>
+          </div>
+          <div class="category-item bg-[#effafd]">
+            <div class="cate-icon">
+              <img src="images/cat-icon3.png" alt="">
+            </div>    
+            <span>Chemistry</span>
+          </div>
+          <div class="category-item bg-[#fff7ee]">
+            <div class="cate-icon">
+              <img src="images/cat-icon4.png" alt="">
+            </div>    
+            <span>Business </span>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+   
+    <!-- top categorys section end -->
+
+    <!-- banner section start  -->
+    <section class="banner-section section">
+      <div class="container">
+        <div class="flex-col lg:flex-row row w-full flex justify-between items-center gap-5">
+          <div class="banner-one w-full p-10  h-[450px] mt-5  lg:h-[300px]">
+            <div class="banner-content w-full">
+              <h4 class="primary-color text-xl font-medium mb-2">Learn together with</h4>
+              <h3 class="text-3xl text-[#2f2a55] mb-2">
+                For <br> Enterprise!
+              </h3>
+            <p class="text-[#7a7a7a] mb-2">If you’ve been researching exactly what skill you want</p>
+            <button class="mx-0 btn primary-bg text-white">
+              Join for Business
+            </button>
+            </div>
+            
+          </div>
+          <div class="banner-two w-full p-10 h-[450px] mt-5  lg:h-[300px]">
+            <div class="banner-content w-[50%]">
+              <h4 class="primary-color text-xl font-medium mb-2">Learn together with</h4>
+            <h3 class="text-3xl text-[#2f2a55] mb-2">
+              For <br> Enterprise!
+            </h3>
+            <p class="text-[#7a7a7a] mb-2">If you’ve been researching exactly what skill you want</p>
+            <button class="mx-0 btn primary-bg text-white">
+              Join for Business
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end  -->
+
+    <section class="course-gallery section">
+      <div class="container">
+        <div class="title-text flex-col md:flex-row flex justify-between items-center ">
+          <h2 class="title text-left ">
+            <span>Popular</span>Courses
+          </h2>
+            <ul class=" cursor-pointer text-base lg:flex flex lg:flex-row flex-col md:hidden justify-center items-center  gap-3">
+              <li class="text-[#7a7a7a] primary-color">All Courses</li>
+              <li class="text-[#7a7a7a]">Python</li>
+              <li class="text-[#7a7a7a]">Javascript</li>
+              <li class="text-[#7a7a7a]">C Programming</li>
+              <li class="text-[#7a7a7a]">Web Development</li>
+            </ul>
+         
+        </div>
+
+        <div class="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-2.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-3.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-4.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-5.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-6.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-7.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+          <div class="card p-2 bg-base-100 shadow-xl">
+            <figure><img class="w-full" src="images/courses-8.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="flex justify-between items-center gap-3 w-full">
+                <button class="btn px-2 py-1 text-xs hover:bg-[#1cb098] hover:text-white">Beginner</button>
+                  <p class="text-[#7a7a7a] ml-5"><span> <i class="fa fa-clock"></i> </span>2h 30m</p>
+                  <p class="primary-color">Free</p>
+              </div>
+         
+              <h2 class="card-title text-xl mt-2">Getting Started with the Linux Command Line</h2>
+              <div class="rating mt-2">
+                <p><span class="text-[#7a7a7a] mt-2">By </span>Shamim </p>
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+
+              </div>
+            
+            </div>
+          </div>
+       
+        </div>
+      </div>
+  
+    </section>
+  </main>
+
+</body>
+</html>
